@@ -1,0 +1,29 @@
+<?php
+//mysqli_query("SET NAMES ISO-8859-1");
+mysqli_query("SET charset utf8");
+//mysqli_query($e14_2015,"SET NAMES utf8 COLLATE utf8-polish.ci");
+?>
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset "utf-8">
+	<title>Dzialania matematyczne</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="script.js"></script>
+</head>
+<div id="container">
+	<div id="baner"><a href="index.html"><img src="baner.jpg"></a></div>
+	<h1>PROSTE DZIAŁANIA</h1>
+	<label for="a">Podaj pierwsą liczbę</label> <input type="number" id="a">
+	<br><br>
+	<label for="b">Podaj drugą liczbę</label> <input type="number" id="b">
+	<br><br>
+	<input type="button" value="DODAWANIE" onclick="suma()">
+	<input type="button" value="ODEJMOWANIE" onclick="roznica()">
+	<input type="button" value="MNOZENIE" onclick="iloraz()">
+	<input type="button" value="DZIELENIE" onclick="iloczyn()">
+	<br><br>
+	<div id="result"></div>
+</div>
+</html>

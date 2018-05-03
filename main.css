@@ -1,0 +1,25 @@
+body
+{
+	background-color: lightgray;
+	font-size: 24 px;
+}
+
+#container
+{
+	width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#menu
+{
+	float:left;
+	width: 30%;
+	
+}
+
+#contents
+{
+	float:left;
+	
+}
